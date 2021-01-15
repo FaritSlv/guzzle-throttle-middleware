@@ -1,9 +1,9 @@
 <?php
 
-namespace BenTools\GuzzleHttp\Middleware\Storage\Adapter;
+namespace Helix\GuzzleHttp\Middleware\Storage\Adapter;
 
-use BenTools\GuzzleHttp\Middleware\Storage\Counter;
-use BenTools\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
+use Helix\GuzzleHttp\Middleware\Storage\Counter;
+use Helix\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
 
 class ArrayAdapter implements ThrottleStorageInterface
 {

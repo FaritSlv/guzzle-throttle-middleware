@@ -1,5 +1,5 @@
 {
-  "name": "bentools/guzzle-throttle-middleware",
+  "name": "helix/guzzle-throttle-middleware",
   "description": "A GuzzleHTTP Middleware that can delay requests before sending them.",
   "type": "library",
   "license": "MIT",
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "BenTools\\GuzzleHttp\\Middleware\\": "src"
+      "Helix\\GuzzleHttp\\Middleware\\": "src"
     }
   },
   "autoload-dev": {

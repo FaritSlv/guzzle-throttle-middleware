@@ -1,10 +1,10 @@
 <?php
 
-namespace BenTools\GuzzleHttp\Middleware;
+namespace Helix\GuzzleHttp\Middleware;
 
-use BenTools\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
-use BenTools\GuzzleHttp\Middleware\Storage\Counter;
-use BenTools\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
+use Helix\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
+use Helix\GuzzleHttp\Middleware\Storage\Counter;
+use Helix\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;

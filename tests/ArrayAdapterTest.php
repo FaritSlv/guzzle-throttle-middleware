@@ -1,10 +1,10 @@
 <?php
 
-namespace BenTools\GuzzleHttp\Middleware\Tests;
+namespace Helix\GuzzleHttp\Middleware\Tests;
 
-use BenTools\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
-use BenTools\GuzzleHttp\Middleware\Storage\Counter;
-use BenTools\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
+use Helix\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
+use Helix\GuzzleHttp\Middleware\Storage\Counter;
+use Helix\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
 use PHPUnit\Framework\TestCase;
 
 class ArrayAdapterTest extends TestCase

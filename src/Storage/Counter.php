@@ -1,6 +1,6 @@
 <?php
 
-namespace BenTools\GuzzleHttp\Middleware\Storage;
+namespace Helix\GuzzleHttp\Middleware\Storage;
 
 class Counter implements \Serializable, \JsonSerializable, \Countable
 {

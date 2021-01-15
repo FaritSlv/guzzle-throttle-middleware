@@ -1,6 +1,6 @@
 <?php
 
-namespace BenTools\GuzzleHttp\Middleware;
+namespace Helix\GuzzleHttp\Middleware;
 
 use BenTools\Psr7\RequestMatcherInterface;
 use Psr\Http\Message\RequestInterface;
