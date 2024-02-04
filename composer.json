@@ -1,5 +1,5 @@
 {
-  "name": "helix/guzzle-throttle-middleware",
+  "name": "farit-slv/guzzle-throttle-middleware",
   "description": "A GuzzleHTTP Middleware that can delay requests before sending them.",
   "type": "library",
   "license": "MIT",
@@ -7,6 +7,10 @@
     {
       "name": "bpolaszek",
       "email": "bpolaszek@gmail.com"
+    },
+    {
+      "name": "FaritSlv",
+      "email": "faritslv@github.loc"
     }
   ],
   "require": {
@@ -19,14 +23,14 @@
     "phpunit/phpunit": "@stable",
     "squizlabs/php_codesniffer": "@stable",
     "satooshi/php-coveralls": "@stable",
-    "symfony/var-dumper": "^3.3",
+    "symfony/var-dumper": "^3.3|^4.0|^5.0|^6.0|^7.0",
     "bentools/guzzle-duration-middleware": "^1.0",
     "psr/cache": "^1.0",
     "symfony/cache": "^3.3"
   },
   "autoload": {
     "psr-4": {
-      "Helix\\GuzzleHttp\\Middleware\\": "src"
+      "FaritSlv\\GuzzleHttp\\Middleware\\": "src"
     }
   },
   "autoload-dev": {

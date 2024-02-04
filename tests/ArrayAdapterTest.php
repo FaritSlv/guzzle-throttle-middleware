@@ -1,10 +1,10 @@
 <?php
 
-namespace Helix\GuzzleHttp\Middleware\Tests;
+namespace FaritSlv\GuzzleHttp\Middleware\Tests;
 
-use Helix\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
-use Helix\GuzzleHttp\Middleware\Storage\Counter;
-use Helix\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
+use FaritSlv\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
+use FaritSlv\GuzzleHttp\Middleware\Storage\Counter;
+use FaritSlv\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
 use PHPUnit\Framework\TestCase;
 
 class ArrayAdapterTest extends TestCase

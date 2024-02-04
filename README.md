@@ -1,9 +1,9 @@
-[![Latest Stable Version](https://poser.pugx.org/helix/guzzle-throttle-middleware/v/stable)](https://packagist.org/packages/helix/guzzle-throttle-middleware)
-[![License](https://poser.pugx.org/helix/guzzle-throttle-middleware/license)](https://packagist.org/packages/helix/guzzle-throttle-middleware)
+[![Latest Stable Version](https://poser.pugx.org/farit-slv/guzzle-throttle-middleware/v/stable)](https://packagist.org/packages/farit-slv/guzzle-throttle-middleware)
+[![License](https://poser.pugx.org/farit-slv/guzzle-throttle-middleware/license)](https://packagist.org/packages/farit-slv/guzzle-throttle-middleware)
 [![Build Status](https://img.shields.io/travis/bpolaszek/guzzle-throttle-middleware/master.svg?style=flat-square)](https://travis-ci.org/bpolaszek/guzzle-throttle-middleware)
 [![Coverage Status](https://coveralls.io/repos/github/bpolaszek/guzzle-throttle-middleware/badge.svg?branch=master)](https://coveralls.io/github/bpolaszek/guzzle-throttle-middleware?branch=master)
 [![Quality Score](https://img.shields.io/scrutinizer/g/bpolaszek/guzzle-throttle-middleware.svg?style=flat-square)](https://scrutinizer-ci.com/g/bpolaszek/guzzle-throttle-middleware)
-[![Total Downloads](https://poser.pugx.org/helix/guzzle-throttle-middleware/downloads)](https://packagist.org/packages/helix/guzzle-throttle-middleware)
+[![Total Downloads](https://poser.pugx.org/farit-slv/guzzle-throttle-middleware/downloads)](https://packagist.org/packages/farit-slv/guzzle-throttle-middleware)
 
 # Guzzle Throttle Middleware
 
@@ -14,7 +14,7 @@ This can be useful when some hosts limits your number of requests per second / p
 Installation
 ------------
 
-> composer require helix/guzzle-throttle-middleware
+> composer require farit-slv/guzzle-throttle-middleware
 
 
 Counter storage
@@ -60,9 +60,9 @@ class ExampleOrgRequestMatcher implements RequestMatcherInterface
 ```
 ```php
 use App\RequestMatcher\ExampleOrgRequestMatcher;
-use Helix\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
-use Helix\GuzzleHttp\Middleware\ThrottleConfiguration;
-use Helix\GuzzleHttp\Middleware\ThrottleMiddleware;
+use FaritSlv\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
+use FaritSlv\GuzzleHttp\Middleware\ThrottleConfiguration;
+use FaritSlv\GuzzleHttp\Middleware\ThrottleMiddleware;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 
