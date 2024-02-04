@@ -1,6 +1,6 @@
 <?php
 
-namespace Helix\GuzzleHttp\Middleware\Storage;
+namespace FaritSlv\GuzzleHttp\Middleware\Storage;
 
 interface ThrottleStorageInterface
 {

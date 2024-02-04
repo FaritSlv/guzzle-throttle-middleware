@@ -1,10 +1,10 @@
 <?php
 
-namespace Helix\GuzzleHttp\Middleware;
+namespace FaritSlv\GuzzleHttp\Middleware;
 
-use Helix\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
-use Helix\GuzzleHttp\Middleware\Storage\Counter;
-use Helix\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
+use FaritSlv\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
+use FaritSlv\GuzzleHttp\Middleware\Storage\Counter;
+use FaritSlv\GuzzleHttp\Middleware\Storage\ThrottleStorageInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;

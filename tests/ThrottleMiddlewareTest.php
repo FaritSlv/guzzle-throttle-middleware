@@ -1,11 +1,11 @@
 <?php
 
-namespace Helix\GuzzleHttp\Middleware\Tests;
+namespace FaritSlv\GuzzleHttp\Middleware\Tests;
 
-use Helix\GuzzleHttp\Middleware\DurationHeaderMiddleware;
-use Helix\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
-use Helix\GuzzleHttp\Middleware\ThrottleConfiguration;
-use Helix\GuzzleHttp\Middleware\ThrottleMiddleware;
+use FaritSlv\GuzzleHttp\Middleware\DurationHeaderMiddleware;
+use FaritSlv\GuzzleHttp\Middleware\Storage\Adapter\ArrayAdapter;
+use FaritSlv\GuzzleHttp\Middleware\ThrottleConfiguration;
+use FaritSlv\GuzzleHttp\Middleware\ThrottleMiddleware;
 use BenTools\Psr7\RequestMatcherInterface;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
