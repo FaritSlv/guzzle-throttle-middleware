@@ -17,7 +17,8 @@
     "php": ">=7.0",
     "guzzlehttp/guzzle": "^6|^7",
     "bentools/psr7-request-matcher": "^1.0",
-    "psr/log": "^1|^2|^3"
+    "psr/log": "^1|^2|^3",
+    "ext-json": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "@stable",

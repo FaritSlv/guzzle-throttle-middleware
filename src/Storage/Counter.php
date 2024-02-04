@@ -91,7 +91,7 @@ class Counter implements \Serializable, \JsonSerializable, \Countable
     /**
      * @inheritDoc
      */
-    public function serialize()
+    public function __serialize()
     {
         return json_encode($this);
     }
@@ -99,7 +99,7 @@ class Counter implements \Serializable, \JsonSerializable, \Countable
     /**
      * @inheritDoc
      */
-    public function unserialize($serialized)
+    public function __unserialize($serialized)
     {
         $data = json_decode($serialized, true);
         $this->expiresAt = $data['e'];
@@ -111,6 +111,20 @@ class Counter implements \Serializable, \JsonSerializable, \Countable
     /**
      * @inheritDoc
      */
+    public function serialize()
+    {
+        return $this->__serialize();
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function unserialize($data)
+    {
+        $this->__unserialize($data);
+    }
+
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return [
